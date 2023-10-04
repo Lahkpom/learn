@@ -1,0 +1,14 @@
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\01-Conociendo\bin\Debug\netcoreapp3.1\01-Conociendo.exe
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\01-Conociendo\bin\Debug\netcoreapp3.1\01-Conociendo.deps.json
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\01-Conociendo\bin\Debug\netcoreapp3.1\01-Conociendo.runtimeconfig.json
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\01-Conociendo\bin\Debug\netcoreapp3.1\01-Conociendo.runtimeconfig.dev.json
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\01-Conociendo\bin\Debug\netcoreapp3.1\01-Conociendo.dll
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\01-Conociendo\bin\Debug\netcoreapp3.1\01-Conociendo.pdb
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\01-Conociendo\obj\Debug\netcoreapp3.1\01-Conociendo.csproj.AssemblyReference.cache
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\01-Conociendo\obj\Debug\netcoreapp3.1\01-Conociendo.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\01-Conociendo\obj\Debug\netcoreapp3.1\01-Conociendo.AssemblyInfoInputs.cache
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\01-Conociendo\obj\Debug\netcoreapp3.1\01-Conociendo.AssemblyInfo.cs
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\01-Conociendo\obj\Debug\netcoreapp3.1\01-Conociendo.csproj.CoreCompileInputs.cache
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\01-Conociendo\obj\Debug\netcoreapp3.1\01-Conociendo.dll
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\01-Conociendo\obj\Debug\netcoreapp3.1\01-Conociendo.pdb
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\01-Conociendo\obj\Debug\netcoreapp3.1\01-Conociendo.genruntimeconfig.cache

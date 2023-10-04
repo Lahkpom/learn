@@ -1,0 +1,14 @@
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\Condicionales\bin\Debug\netcoreapp3.1\Condicionales.exe
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\Condicionales\bin\Debug\netcoreapp3.1\Condicionales.deps.json
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\Condicionales\bin\Debug\netcoreapp3.1\Condicionales.runtimeconfig.json
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\Condicionales\bin\Debug\netcoreapp3.1\Condicionales.runtimeconfig.dev.json
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\Condicionales\bin\Debug\netcoreapp3.1\Condicionales.dll
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\Condicionales\bin\Debug\netcoreapp3.1\Condicionales.pdb
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\Condicionales\obj\Debug\netcoreapp3.1\Condicionales.csproj.AssemblyReference.cache
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\Condicionales\obj\Debug\netcoreapp3.1\Condicionales.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\Condicionales\obj\Debug\netcoreapp3.1\Condicionales.AssemblyInfoInputs.cache
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\Condicionales\obj\Debug\netcoreapp3.1\Condicionales.AssemblyInfo.cs
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\Condicionales\obj\Debug\netcoreapp3.1\Condicionales.csproj.CoreCompileInputs.cache
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\Condicionales\obj\Debug\netcoreapp3.1\Condicionales.dll
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\Condicionales\obj\Debug\netcoreapp3.1\Condicionales.pdb
+G:\Mi unidad\ESTUDIOS\EDteam\Curso_C#_desde_Cero\Curso_Modulos\Condicionales\obj\Debug\netcoreapp3.1\Condicionales.genruntimeconfig.cache
