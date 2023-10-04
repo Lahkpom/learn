@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+    <div>
+        <div>
+            <h1 id="title">SELECCIONAR NODOS</h1>
+            <ul id="listaPrincipal">
+                <li>document.getElementById()</li>
+                <li>document.querySelector() / element.querySelector()</li>
+                <li>document.querySelectorAll() / element.querySelectorAll()</li>
+            </ul>
+        </div>
+        <div>
+            <h2>document.getElementById()</h2>
+            <p>
+                Sirve para obtener un elemento por el id que le indiquemos en el atributo de la etiqueta,
+                lo podemos ver en el 1er ejemplo en .js, tener en cuenta que devuelve el elemento completo,
+                es decir con etiquetas y todo, no solo el contenido de la etiqueta.
+            </p>
+            <p>
+                En el 4to Ejemplo, podemos ver que este comando sirve también para retornar una lista
+                así como el querySelectorAll, poniendo un id al "ul" y recorrerla utilizando el querySelector
+                dentro del getElementById.
+            </p>
+        </div>
+        <div>
+            <h2>document.querySelector() / element.querySelector()</h2>
+            <p>
+                Todo lo que es querySelector hace referencia a CSS, por lo que para poder seleccionarlos tenemos que 
+                usar el "#", y nos devuelve ese elemento. No usamos casi el querySelector. Esto se puede ver en el 2do Ejemplo.
+            </p>
+        </div>
+        <div>
+            <h2>document.querySelectorAll() / element.querySelectorAll()</h2>
+            <p>
+                Este querySelector, a diferencia del anterior, lo que nos devuelve no es un elemento, sino una
+                colleción de elementos, como por ejemplo todo los items de una lista.
+            </p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+Las flag cambian el comportamiento del comando
+
+ls
+
+ls -a (lista todo tipo de archivos incluyendo los ocultos)
+
+-a es una flag
+
+cada comando tiene sus flag
+
+podemos verlos con el man
+
+ls -l (los lista de forma vertical y con mas información)
+
+tambien se puede convinar
+
+ls -a -l
+
+-h hace que el tamaño de los archivos sea legible para humanos
+
+tambien se pueden poner seguidas
+
+ls -alh

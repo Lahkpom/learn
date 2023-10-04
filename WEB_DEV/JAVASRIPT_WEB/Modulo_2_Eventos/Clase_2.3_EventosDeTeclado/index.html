@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+    <div>
+        <hgroup>
+            <h1 id="title">EVENTOS DEL TECLADO</h1>
+            <h2 onclick="mensaje()">Métodos</h2>
+        </hgroup>
+        <ul id="listaPrincipal">
+            <li>keydown</li>
+            <li>keyup</li>
+            <li>keypress</li>
+        </ul>
+        <div class="keydown">
+            <h2>keydown</h2>
+            <p>
+                Reacciona cuando se presiona una tecla, y registra que tecla se usó, se puede manipular por ejemplo que 
+                presionando x o y tecla haga algo interno.
+                <input type="text" id="keydown">
+            </p>
+        </div>
+        <div class="keyup">
+            <h2>keyup</h2>
+            <p>
+                Reacciona cuando se suelta una tecla
+                <input type="text" id="keyup">
+            </p>
+        </div>
+        <div class="keypress">
+            <h2>keypress</h2>
+            <p>
+                Reacciona cuando se mantiene apretada una tecla
+                <input type="text" id="keypress">
+            </p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

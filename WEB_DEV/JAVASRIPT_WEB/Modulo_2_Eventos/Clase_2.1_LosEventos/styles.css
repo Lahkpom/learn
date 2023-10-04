@@ -1,0 +1,24 @@
+body{
+    background: rgb(253, 1, 228);
+}
+
+p{
+    width: 50%;
+    text-align: justify;
+}
+
+div{
+    margin: 2px;
+}
+
+.onclick{
+    border: 2px solid black;
+}
+
+.eventListener{
+    border: 2px solid black;
+}
+
+.otro{
+    border: 2px solid black;
+}

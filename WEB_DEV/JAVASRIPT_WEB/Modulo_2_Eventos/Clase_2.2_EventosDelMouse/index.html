@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+    <div>
+        <hgroup>
+            <h1 id="title">EVENTOS DEL MOUSE</h1>
+            <h2 onclick="mensaje()">Métodos</h2>
+        </hgroup>
+        <ul id="listaPrincipal">
+            <li>click</li>
+            <li>dblclick</li>
+            <li>mouseenter</li>
+            <li>mouseleave</li>
+            <li>contextmenu</li>
+            <li>mousedown</li>
+            <li>mouseup</li>
+            <li>mousemove</li>
+        </ul>
+        <div class="click">
+            <h2 id="click">click</h2>
+            <p>
+                Este es un evento que permite generar una reaccion, a través de un por ejemplo un método, al hacer click sobre el 
+                contenido de esa etiqueta, como se ve al hacer click en "Métodos". Está muy fuera de práctica poner el onclick dentro
+                del HTML
+            </p>
+        </div>
+        <div class="dblclick">
+            <h2 id="dblclick">dblclick</h2>
+            <p>
+                Solo cambiando el nombre del método se ve la diferencia.
+            </p>
+        </div>
+        <div class="mouseenter">
+            <h2 id="mouseenter">mouseenter</h2>
+            <p>
+                Registra cada vez que el mouse entra en el área de la etiqueta
+            </p>
+        </div>
+        <div class="mouseleave">
+            <h2 id="mouseleave">mouseleave</h2>
+            <p>
+                Este registra cada vez que el mouse sale del área de la etiqueta
+            </p>
+        </div>
+        <div class="contextmenu">
+            <h2 id="contextmenu">contextmenu</h2>
+            <p>
+                Captura cuando hacemos click derecho, y manipularlo. Por ejemplo cuando en realidad
+                debería mostrar un menú, podemos indicarle que no lo haga.
+            </p>
+        </div>
+        <div class="mousedown">
+            <h2 id="mousedown">mousedown</h2>
+            <p>
+                registra cuando se hace una pulsacion larga sobre la etiqueta
+            </p>
+        </div>
+        <div class="mouseup">
+            <h2 id="mouseup">mouseup</h2>
+            <p>
+                resgistra cuando se suelta el click luego de una pulsación larga
+            </p>
+        </div>
+        <div class="mousemove">
+            <h2 id="mousemove">mousemove</h2>
+            <p>
+                registra cada vez que el mouse se mueve dentro de la etiqueta
+            </p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

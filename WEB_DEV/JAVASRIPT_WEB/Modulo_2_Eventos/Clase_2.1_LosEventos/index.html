@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+    <div>
+        <hgroup>
+            <h1 id="title">EVENTOS</h1>
+            <h2 onclick="mensaje()">Métodos</h2>
+        </hgroup>
+        <ul id="listaPrincipal">
+            <li>onclick</li>
+            <li>addEventListener()</li>
+        </ul>
+        <div class="onclick">
+            <h2>onclick</h2>
+            <p>
+                este es un evento que permite generar una reaccion, a través de un por ejemplo un método, al hacer click sobre el 
+                contenido de esa etiqueta, como se ve al hacer click en "Métodos". Está muy fuera de práctica poner el onclick dentro
+                del HTML
+            </p>
+        </div>
+        <div class="eventListener">
+            <h2 id="eventListener">addEventListener</h2>
+            <p>
+                Este método reemplaza al onclick dejando su tipeo dentro del JS, le ponemos un id a la etiqueta y la manipulamos
+                desde allá. Se le deben pasar dos parámetros, el nombre del evento (dejamos por defecto el nombre "click") 
+                y la función a cumplir, que debe ser creada con formato anónimo dentro del mismo parámetro o fuera de él y 
+                pasarle el nombre de la función (sin los paréntesis).
+            </p>
+            <button>Otro ejemplo</button>
+        </div>
+        <div class="otro">
+            <h2 id="otro">otro addEventListener</h2>
+            <p>
+                Este muestra como hacer el alert con parámetros
+            </p>
+            <button id="boton2">Otro ejemplo</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

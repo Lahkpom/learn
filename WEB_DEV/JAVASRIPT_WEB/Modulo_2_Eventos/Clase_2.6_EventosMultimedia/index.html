@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+    <div>
+        <hgroup>
+            <h1 id="title">EVENTOS MULTIMEDIA</h1>
+            <h2 onclick="mensaje()">Métodos</h2>
+        </hgroup>
+        <ul id="listaPrincipal">
+            <li>play</li>
+            <li>pause</li>
+        </ul>
+        <div class="play">
+            <h2>play</h2>
+            <p>
+                Este sirve para cuando ponemos un video, que haciendole click se resproduzca
+            </p>
+        </div>
+        <div class="pause">
+            <h2>pause</h2>
+            <p>
+                Este sirve para poner en pause ese vide
+            </p>
+        </div>
+        <div class="videos">
+            <!-- ?<video src="video.mp4" id="video" controls></video> -->
+            <video src="video.mp4" id="video"></video><br>
+            <button id="play">play</button>
+            <button id="pause">pause</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

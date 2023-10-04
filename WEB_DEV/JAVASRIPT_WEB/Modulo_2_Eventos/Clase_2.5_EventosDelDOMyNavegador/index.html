@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+    <div>
+        <hgroup>
+            <h1 id="title">EVENTOS DEL DOM Y NAVEGADOR</h1>
+            <h2 onclick="mensaje()">Métodos</h2>
+        </hgroup>
+        <ul id="listaPrincipal">
+            <li>DOMContentloaded</li>
+        </ul>
+        <div class="DOMContentloaded">
+            <h2>DOMContentloaded</h2>
+            <p>
+                Es un evento que ocurre cuando cargan todos los elementos del DOM, independientemente
+                de las imágenes y videos. Sirve para hacer que cargue todo antes de dar lugar a lo que
+                pongamos en JS, ya que errores causados por ejemplo cuando porque el navegadorquiere cargar
+                un formulario que todavia no fue creado. Se pone al principio del JS y todo lo demas es hijo de él
+            </p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

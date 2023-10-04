@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+    <div>
+        <hgroup>
+            <h1 id="title">EVENTOS DE FORMULARIO</h1>
+            <h2 onclick="mensaje()">Métodos</h2>
+        </hgroup>
+        <ul id="listaPrincipal">
+            <li>submit</li>
+            <li>change</li>
+            <li>focus</li>
+            <li>blur</li>
+            <li>reset</li>
+        </ul>
+        <div class="submit">
+            <h2>submit</h2>
+            <form action="" id="submit">
+                <label for="name">Nombre <input type="text" id="name" placeholder="Ingresa tu nombre"></label><br>
+                <label for="password">Contraseña <input type="password" id="password" placeholder="Ingresa tu contraseña"></label><br>
+                <input type="submit">
+            </form>
+        </div>
+        <div class="change">
+            <h2>change</h2>
+            <form action="" id="change">
+                <label for="name2">Nombre <input type="text" id="name2" placeholder="Ingresa tu nombre"></label><br>
+                <label for="password2">Contraseña <input type="password" id="password2" placeholder="Ingresa tu contraseña"></label><br>
+                <label for="recordarContraseña">Recordar Contraseña<input type="checkbox" id="recordarContraseña"></label><br>
+                <input type="submit">
+            </form>
+        </div>
+        <div class="focus">
+            <h2>focus</h2>
+            <p>
+                Focus es cuando marcamos un campo en el formulario
+            </p>
+        </div>
+        <div class="blur">
+            <h2>blur</h2>
+            <p>
+                blur es el estado en el que están todos los campos mientras no estén seleccionados
+            </p>
+        </div>
+        <div class="reset">
+            <h2>reset</h2>
+            <p>
+                reset es resetear el contenido del formulario
+            </p>
+            <form action="" id="reset">
+                <label for="name3">Nombre <input type="text" id="name3" placeholder="Ingresa tu nombre"></label><br>
+                <label for="password3">Contraseña <input type="password" id="password3" placeholder="Ingresa tu contraseña"></label><br>
+                <label for="recordarContraseña2">Recordar Contraseña<input type="checkbox" id="recordarContraseña2"></label><br>
+                <input type="reset">
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

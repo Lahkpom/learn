@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+    <div>
+        <hgroup>
+            <h1 id="title">PROPAGACIÓN DE EVENTOS</h1>
+            <h2>Métodos</h2>
+        </hgroup>
+        <ul id="listaPrincipal">
+            <li>NO HAY</li>
+        </ul>
+        <div class="play">
+            <h2>La Progacaión</h2>
+            <p>
+                Es como le decimos a que cuando hacemos un click en un elemento, y a su vez
+                estamos haciendo click en sus elementos padre. Esto podría traer problemas 
+                a veces cuando hacemos click en un evento, pero nos saltan a su vez eventos 
+                que corresponden a su padre que no queríamos ejecutar. La forma de parar
+                esta propagacioón es con .stopPropagation()
+            </p>
+        </div>
+    </div>
+    <div id="nro4">
+        <div id="nro2">
+            <div id="nro3">
+                Hoal
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

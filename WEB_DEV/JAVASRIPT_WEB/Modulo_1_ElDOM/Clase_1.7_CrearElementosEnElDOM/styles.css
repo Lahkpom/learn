@@ -1,0 +1,16 @@
+body{
+    background: rgb(253, 1, 228);
+}
+
+p{
+    width: 50%;
+    text-align: justify;
+}
+
+#contenedorPrueba{
+    border: 2px solid black;
+}
+
+#contenedorPrueba2{
+    border: 2px solid white
+}

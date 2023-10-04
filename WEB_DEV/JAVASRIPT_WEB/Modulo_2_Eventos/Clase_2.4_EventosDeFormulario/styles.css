@@ -1,0 +1,16 @@
+body{
+    background: rgb(253, 1, 228);
+}
+
+p{
+    width: 50%;
+    text-align: justify;
+}
+
+div{
+    margin: 2px;
+}
+
+.submit, .change, .focus, .blur, .reset{
+    border: 2px solid black;
+}

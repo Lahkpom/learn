@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+    <div>
+        <hgroup>
+            <h1 id="title">CREAR ELEMENTOS</h1>
+            <h2>Métodos</h2>
+        </hgroup>
+        <ul id="listaPrincipal">
+            <li>document.createElement()</li>
+            <li>element.appendChild()</li>
+        </ul>
+        <div>
+            <h2>document.createElement()</h2>
+            <p>
+                (ejemplo1) podemos crear una variable/constante, se le 
+                debe pasar por parametro primero el tipo de etiqueta, luego 
+                se le puede asignar un valor por ejemplo con textContent,
+            </p>
+        </div>
+        <div>
+            <h2>element.appendChild()</h2>
+            <p>
+                El createElement() crea un elemento pero no lo hace visible, 
+                solo lo deja disponible en memoria, para poder verlo, este appendChild()
+                lo que hace es agregarlo como ultimo hijo de la etiqueta que nosotros 
+                le indiquemos (ejemplo2)
+            </p>
+        </div>
+        <div id="contenedorPrueba" class="contenedorPrueba">
+
+        </div>
+        <div id="contenedorPrueba2" class="contenedorPrueba2">
+            <div id="aca">
+
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

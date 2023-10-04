@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces y listas</title>
+</head>
+<body>
+    <!-- !Para crear un enlace su usa la etiqueta av(anchor o ancla), donde es obligatorio el atributo href
+    !el cual contiene la dirección de a donde ir, puede ser dentro de la misma estructura, a otra estructura de la misma
+    !página, o a otra página como facebook -->
+    <!-- Dentor de la misma página -->
+    <div>
+        <h1 id="titulo">Este es el Título</h1>
+    </div>
+    <div>
+        <a href="#titulo">Ir al título</a>
+    </div>
+    <!-- para ir a otra estructura de la misma página -->
+    <div>
+        <a href="C:\Users\118hi\OneDrive\Escritorio\Visual_Studio_Code\Curso_HTML_EDteam\03\index.html">Ir al archivo de la carpeta 3</a>
+    </div>
+    <!-- para ir a otra pagina -->
+    <div>
+        <a href="https://www.facebook.com/">Ir a Facebook</a>
+    </div>
+    <!-- !Stributos opcionales de a -->
+    <!-- target es para que te habra el enlace en otra pestaña, recomendado para cuando el enlace es externo-->
+    <div>
+        <a href="https://www.facebook.com/" target="_blank">Ir a Facebook con target</a>
+    </div>
+    <!-- rel no follow no transmite SEO, es para evitar el spam-->
+    <div>
+        <a href="https://www.facebook.com/" rel="nofollow">Ir a Facebook con nofollow</a>
+    </div>
+    <!-- rel no reference no indica al destino el origen del link-->
+    <div>
+        <a href="https://www.facebook.com/" rel="noreference">Ir a Facebook con no reference</a>
+    </div>
+    <!-- rel noopener evita que le incrusten codigo malicioso cuando abre enlaces en nuevas pestañas -->
+    <div>
+        <a href="https://www.facebook.com/" rel="noopener">Ir a Facebook con no opener</a>
+    </div>
+    <!-- download descarga un recurso en lugar de abrirlo en el navegador -->
+    <div>
+        <a href="goku.jpg" download="goku">Imagen de goku</a>
+    </div>
+    <!-- !Rutas relativas y absolutas -->
+    <div>
+        <hgroup>
+            <h1>Rutas absolutas y relativas</h1>
+            <h2>Rutas absoltas</h2>
+        </hgroup>
+        <p>
+            Tienen protocolo http o http y son únicos, son los enlaces a otras páginas
+        </p>
+        <h2>Rutas relativas</h2>
+        <p>
+            Son las que se usan para rutas internas del proyecto como imagenes o videos
+        </p>
+    </div>
+    <!-- !Enlaces con hash y parámetros -->
+    <div>
+        <h2 id="indice">Índice</h2>
+        <p>
+            <a href="#capitulo1">capítulo 1</a>
+            <a href="#capitulo2">capítulo 2</a>
+            <a href="#capitulo3">capítulo 3</a>
+            <a href="#capitulo4">capítulo 4</a>
+            <a href="#capitulo5">capítulo 5</a>
+            <a href="#capitulo6">capítulo 6</a>
+        </p>
+        <h2 id="capitulo1">Capitulo 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <h2 id="capitulo2">Capitulo 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <h2 id="capitulo3">Capitulo 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <h2 id="capitulo4">Capitulo 4</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <h2 id="capitulo5">Capitulo 5</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <h2 id="capitulo6">Capitulo 6</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores, tenetur laudantium consectetur earum repudiandae et repellat velit asperiores totam qui tempore alias dicta itaque architecto sed hic sit perspiciatis!</p>
+        <p>
+            <a href="#indice">Ir al índice</a>
+        </p>
+    </div>
+    <!-- !Listas -->
+    <div>
+        <hgroup>
+            <h1>Listas</h1>
+            <h2>Listas ordenadas (ol)</h2>
+        </hgroup>
+        <p>
+            Tienen una secuencias de elementos
+        </p>
+        <ol>
+            <li>mezclar 2 huevos y 200ml de leche</li>
+            <li>Agregar el polvo del envase</li>
+            <li>Batir 3 min</li>
+            <li>Al horno por 60min</li>
+        </ol>
+        <h2>Listas no ordenadas (ul)</h2>
+        <p>
+            No indican secuencias
+        </p>
+        <ul>
+            <li>Lunes</li>
+            <li>Martes</li>
+            <li>Miercoles</li>
+            <li>Jueves</li>
+            <li>Viernes</li>
+        </ul>
+        <h2>Items</h2>
+        <p>
+            Los ítems de una lista (ol o ul) se marcan con la etiqueta (il)
+        </p>
+        <h2>Listas anidadas</h2>
+        <p>Tareas de la semana</p>
+        <ul>
+            <li>
+                Lunes
+                <ol>
+                    <li>Hacer la Cama</li>
+                    <li>Estudiar</li>
+                </ol>
+            </li>
+            <li>
+                Martes
+                <ul>
+                    <li>
+                        Hacer ejercicio
+                        <ol>
+                            <li>trotar</li>
+                            <li>abdominales</li>
+                            <li>press de banca</li>
+                        </ol>
+                    </li>
+                    <li>meditar</li>
+                </ul>
+            </li>
+            <li>Miercoles</li>
+            <li>Jueves</li>
+            <li>Viernes</li>
+        </ul>
+        <h2>Listas de definicion (dl)</h2>
+        <p>usa dos etiquetas:</p>
+        <p>dt para definir termino</p>
+        <p>dd definicion de descripcion</p>
+        <h3>Etiquetas de HTML que se deben conocer</h3>
+        <dl>
+            <dt>h1, h2, h3</dt>
+            <dd>Es para los títulos</dd>
+            <dt>p</dt>
+            <dd>Es para los párrafos</dd>
+        </dl>
+    </div>
+</body>
+</html>

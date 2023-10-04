@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Clase 3</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            span{
+                color: red;
+                background: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- !Elementos de bloque, reservan todo el espacio horizontal para su contenido-->
+        <h1>hola</h1>
+        <h1>hola 2</h1>
+        <p>hola</p>
+        <p>hola</p>
+        <p>hola</p>
+        <hr>
+        <pre>
+            linea 1
+            linea 2
+            linea 3
+        </pre>
+        <p>
+            Este es un titulo o una introduccion
+        </p>
+        <blockquote>
+            Esta seria la cita, se puede ver que el propio
+            navegador agrega una sangria y da estilos, pero
+            sin respetar los saltos de línea
+        </blockquote>
+        <div>
+            <p>Esta etiqueta solo se usa para representar una caja vacia a la cual se le aplicará CSS</p>
+        </div>
+        <!-- 
+            Son por ejemplo: 
+            -h1, h2, h3, h4, h5, h6, 
+            -p,
+            -hr (rule(arreglo) horizontal) dibuja una línea horizontal de punta a punta, pero tambien le indica
+            al navegador que hay una separacion de temas
+            -pre: esta etiqueta hace que se escriba en el navegador tal cual yo lo escriba en las etiquetas,
+            con los saltos de línea incluidos.
+            -blockquote: para hacer citas en bloque
+        -->
+
+        <!-- !Elementos de Línea, se ponen uno al lado del otro, siempre deben ir dentro de un elemento de bloque -->
+        <!-- span es identico al div, solo se usa para aplicar algún estilo, no hace nada-->
+        <p>    
+            <span>hola</span>
+            hola
+            <span>hola</span>
+            hola
+        </p>
+        <!-- Con el elemento em se hace enfasis a una parte del texto que sea más importante -->
+        <p>Por ejemplo mi nombre es <em>Leonel Hidalgo</em> y tengo 23</p>
+        <!-- El elemento strong es para marcar la parte más importante del texo -->
+        <p>Por ejemplo mi nombre es <strong>Leonel Hidalgo</strong> y tengo 23</p>
+        <!-- El elemento small es para marcar la parte menos importante del texo -->
+        <p>Por ejemplo mi nombre es <small>Leonel Hidalgo</small> y tengo 23</p>
+        <!-- El elemento wbr (word breaking rule) es para cuando uso una palabra muy larga me indico donde cortarse si achico la 
+            pantalla-->
+        <p>Porejemplominombrees<wbr>LeonelHidalgoytengo23LeonelHidalgoytengo23LeonelHidalgoytengo23LeonelHidalgoytengo23LeonelHidalgoytengo23</p>
+        
+        <!-- !Elementos de linea que su única función es dar estilos -->
+        <!-- b es para dar negrita -->
+        <p>este es un <b>párrafo</b> de emeplo</p>
+        <!-- u es para subrayar -->
+        <p>este es un <u>párrafo</u> de emeplo</p>
+        <!-- i es para cursiva -->
+        <p>este es un <i>párrafo</i> de emeplo</p>
+        <!-- cite es el equivalente a blockquote pero en línea -->
+        <cite>
+            Esta seria la cita, se puede ver que el propio
+            navegador agrega una sangria y da estilos, pero
+            sin respetar los saltos de línea
+        </cite>
+        <!-- sub - es subidice-->
+        <p>H<sub>2</sub>O</p>
+        <!-- sup es superindice-->
+        <p>X<sup>2</sup></p>
+        <!-- code es para escribir codigo dentro de una linea (le cambia el tipo de letra) -->
+        <p>
+            Este es un ejemplo de código:
+            <code>
+                public void saludar(){
+                    System.out.println("hola");
+                }
+            </code>
+            Es todo
+        </p>
+        <!-- time es para señalar el timepo -->
+        <p>La hora del partido es a las 19:00</p>
+    </body>
+</html>

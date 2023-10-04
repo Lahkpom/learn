@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+    <div>
+        <hgroup>
+            <h1 id="title">CONTENIDO / <span>Esto es una prueba</span></h1>
+            <h2>Métodos</h2>
+        </hgroup>
+        <ul id="listaPrincipal">
+            <li>textContent</li>
+            <li>innerHTML</li>
+            <li>outerHTML</li>
+        </ul>
+        <div>
+            <h2>textContent</h2>
+            <p>
+                Con este método puedo capturar en un String todo el contenido que haya dentro de la etiqueta
+                con el id que le indico, incluso si tiene hijos o etiquetas de linea, devuelve un solo Strinf
+                (ejemplo 1)
+            </p>
+        </div>
+        <div>
+            <h2>innerHTML</h2>
+            <p>
+                Este también devuelve el contenido de la etiqueta con el id que el indico, pero me marca cuales son 
+                las etiquetas que tiene como hijo (ejemplo2)
+            </p>
+        </div>
+        <div>
+            <h2>outerHTML</h2>
+            <p>
+                Esta lo que hace es devolver el contenido completo de toda la etiqueta donde está el id que
+                le inquemos, incluyendo la etiqueta misma y sus atributos (ejemplo3)
+            </p>
+        </div>
+        <div>
+            <h3>Extras</h3>
+            <p>
+                Estas herramientas no solo permiten leer sino también escribir dentro de las etiquetas (Ejemplo4)
+                teniendo en cuenta euq textContent solo permita ingresar texto, mientras que los innerHTML y 
+                outerHTML permiten que escirbas etiquetas dentro y que el navegador las lea como HTML.
+            </p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
