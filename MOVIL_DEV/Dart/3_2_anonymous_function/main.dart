@@ -10,4 +10,12 @@ void main() {
   }
 
   functionB(functionA);
+  print('---');
+  functionB((){}); //*Esta es una función anónima que no realiza ninguna tarea
+  print('---');
+  functionB((){
+    print('This is an anonymous function'); //*Podemos enviar cualquier otra acción por parámetro
+  });
+
+
 }
