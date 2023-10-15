@@ -10,7 +10,7 @@ Una vez realizadas las modificaciones deseadas, presionamos ctrl + o para guarda
 
 -----------
 
-Como ver el contenido de los archivos desde la termina?
+Como ver el contenido de los archivos desde la terminal?
 
 cat
 
@@ -26,7 +26,7 @@ Lo imprime en la misma consola todo el contenido de golpe
 
 less
 
-similar a cat per en vez de tirar todo de golpe lo va mostrando de a poco a medida que uno va leyendo
+similar a cat pero en vez de tirar todo de golpe lo va mostrando de a poco a medida que uno va leyendo
 
 con enter salta una linea
 

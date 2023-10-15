@@ -1,0 +1,4 @@
+Top
+El comando top nos muestra en tiempo real los procesos que están sucediendo en la máquina
+Nos muestra información util como el ID, el usuario, %cpu, %ram entre otras de dichos procesos
+De esta forma podemosidentificar qué procesos están consumiento recursos en exceso y finalizarlos
