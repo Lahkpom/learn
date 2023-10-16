@@ -22,6 +22,10 @@ no pregunta si estas seguro
 
 solo remueve archivos
 
+Se puede concatenar varios archivos
+
+rm file1.txt file2.dart file...
+
 ---------
 
 mv
