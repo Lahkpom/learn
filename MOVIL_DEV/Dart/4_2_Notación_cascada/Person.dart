@@ -4,6 +4,7 @@ class Person{
   late int _age;
   late String? _nick;
   late String _nick2;
+  late String? _job;
 
   //*constructor
   //*Person(this._name, this._age, {String? this.nick, String this._nick2 = ''}); //*lo que está en llaves es opcional
@@ -19,18 +20,18 @@ class Person{
     this.setNick2 = nick2;
   }
 
-  String toString() => 'name=${this._name}, age=${this._age}, nick=${this._nick}, nick2=${this._nick2}';
+  String toString() => 'name=${this._name}, age=${this._age}, nick=${this._nick}, nick2=${this._nick2}, job=${this._job}';
 
   //*
-  String get getName => this._name;
   set setName(String name) => this._name = name;
-  int get getAge => this._age;
+  String get getName => this._name;
   set setAge(int age) => this._age = age;
-  String? get getNick => this._nick;
+  int get getAge => this._age;
   set setNick(String? nick) => this._nick = nick; //*apodo
-  String get getNick2 => this._nick2;
+  String? get getNick => this._nick;
   set setNick2(String nick2) => this._nick2 = nick2; //*apodo
-
+  String get getNick2 => this._nick2;
+  set setJob(String? job) => this._job = job;
 
 
 
