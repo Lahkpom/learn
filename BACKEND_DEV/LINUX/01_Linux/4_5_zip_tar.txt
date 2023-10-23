@@ -1,3 +1,5 @@
+zip
+
 Cómo comprimir archivos con zip
 zip filename.zip archivos
 zip fileName.zip *jpg En este caso se comprimirían todos los jpg existentes en la carpeta donde 
@@ -13,3 +15,15 @@ unzip -vl fileZipName.zip
 para desomprimir el archivo, usamos:
 
 unzip fileZipName.zip
+
+
+
+TAR.GZ
+
+tar no comprime, agrupa (reduce el peso de los archivos)
+
+tar cfz fileName.tar.gz archivos
+
+Para desagrupar:
+
+tar xfz fileName.tar.gz 
