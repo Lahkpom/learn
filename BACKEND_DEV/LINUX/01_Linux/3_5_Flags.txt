@@ -21,3 +21,9 @@ ls -a -l
 tambien se pueden poner seguidas
 
 ls -alh
+
+
+-S the upper case S, nos ordena la lista por tamaño de mayor a menor
+
+-R nos muestra el contenido de los subdirectorios de los directorios que hay en la lista 
+(y subdirectorios de los subdirectorios)
