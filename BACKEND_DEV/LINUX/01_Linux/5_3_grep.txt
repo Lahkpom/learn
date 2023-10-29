@@ -12,7 +12,7 @@ en la que haya encontrado diche expresión
 
 grep -n file.format -e expresión
 
-Estotambién pordíamos combinarlo con otros comandos con |
+Esto también pordíamos combinarlo con otros comandos con |
 
 grep file.format -e expresión | wc -l (nos devuelve la cantidad de líneas)
 
