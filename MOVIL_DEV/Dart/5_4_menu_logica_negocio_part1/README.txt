@@ -21,3 +21,10 @@ Creamos un enum con el estado de cada tarea
 
 Creamos un archivo txt para almacenar nuestras tareas (Como si fuera la base de datos)
 
+
+
+
+controllers
+
+agregamos un contrtolador para cada función que deba realizar nuestro programa
+
