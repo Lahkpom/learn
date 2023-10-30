@@ -2,7 +2,7 @@ import 'dart:io';
 import 'controllers/addTask.dart';
 void main(){
   final file = File('./Tasks.txt');
-  ME QUEDE EN ESTE PUNTO
+  
   print('#### WELCOME TO THIS APP ####');
   print('---- Choose an option ----');
   print('1. Add task');
