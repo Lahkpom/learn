@@ -1,4 +1,4 @@
-enum eTaskState{
+enum eTaskStatus{
   FINISHED,
   PAUSED,
   UNFINISHED
