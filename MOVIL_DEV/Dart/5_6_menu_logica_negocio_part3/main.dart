@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'controllers/removeTask.dart';
 import 'controllers/watchTask.dart';
 import 'controllers/addTask.dart';
 void main(){
@@ -38,7 +39,7 @@ void main(){
         watchTask(file);
         break;
       case '3':
-        print('delete');
+        removeTask(file);
         break;
     }
 

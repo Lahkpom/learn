@@ -2,6 +2,7 @@ import 'dart:io';
 
 import '../models/Task.dart';
 import '../utilities/ConvertToTask.dart';
+import '../utilities/IterateTasks.dart';
 import '../utilities/ValidateName.dart';
 
 void watchTask(File file){
@@ -29,30 +30,24 @@ void watchTask(File file){
 
         switch (choice) {
           case '1':
-            print('');
-            content.forEach((element) {
-              if(element.length > 0){
-                final aux = element.split('|');
-                print(aux[0]);
-              }
-            });
+            IterateTasks(content);
             break;
           case '2':
             print('\nWhat is the name of the task that do you want to see?');
             String? name = scanner.readLineSync();
-            int i = 1;
+            int i = 0;
             name = ValidateName(name);
             content.forEach((element) {
-            if (element.contains(name!)) {
-              Task task = ConvertToTask(element);
-              print('');
-              print('Order: ${i}');
-              print('Name: ${task.getName}.');
-              print('Decription: ${task.getDescription}.');
-              print('Status: ${task.getStatus.name}');
-            }
-            i++;
-          });
+              if (element.contains(name!)) {
+                Task task = ConvertToTask(element);
+                print('');
+                print('Order: ${i}');
+                print('Name: ${task.getName}.');
+                print('Decription: ${task.getDescription}.');
+                print('Status: ${task.getStatus.name}');
+              }
+              i++;
+            });
             break;
           case '0':
             break;
