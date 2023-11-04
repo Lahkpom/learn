@@ -1,20 +1,21 @@
 import 'dart:io';
 
 void main(){
+  final scanner = stdin;
+  final printer = stdout;
   String? name;
-  String? nombre;
-  //int? edad;
+  String? surname;
+  int? age;
 
-  print("What's your name?");
-  name = stdin.readLineSync();
+  printer.write("What's your name?: ");
+  name = scanner.readLineSync();
+  
+  printer.write("What's your surname?: ");
+  surname = scanner.readLineSync();
+  
+  printer.write("How old are you?: ");
+  String? aux = scanner.readLineSync();
+  age = int.parse(aux!);
 
-  stdout.write('Por favor, introduce tu nombre: ');
-  nombre = stdin.readLineSync();
-
-  // Solicitar la edad al usuario
-  //stdout.write('Por favor, introduce tu edad: ');
-  //int? edad = int.parse(stdin.readLineSync());
-
-  print('Welcome, ${name}');
-  print('Welcome, ${nombre}');
+  print('Welcome, ${name} ${surname}, ${age} years');
 }
