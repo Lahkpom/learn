@@ -1,9 +1,9 @@
 class Seller{
   //Atributos
-  final double _FIXED_SALARY = 44000;
+  final int _FIXED_SALARY = 44000;
   final double _EXTRA = 0.16;
-  String _name;
   double _totalAmountSold = 0;
+  String _name;
 
   //Constructor
   Seller(this._name);

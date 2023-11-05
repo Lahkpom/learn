@@ -1,9 +1,14 @@
+import 'dart:io';
+
 void main(){
+  final Scanner = stdin;
+  final Printer = stdout;
   int a;
 
-  a = 6;
+  Printer.write('Please, enter a number: ');
+  a = int.parse(Scanner.readLineSync()!);
 
-  print('Your number is ${a}');
+  print('\nYour number is ${a}');
   print('${a} * 5 = ${a * 5}');
   print('${a} / 2 = ${a / 2}');
 }
