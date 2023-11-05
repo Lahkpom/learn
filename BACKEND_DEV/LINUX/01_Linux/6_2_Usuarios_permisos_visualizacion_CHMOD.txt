@@ -52,6 +52,6 @@ Recibe 3 valor más  el nombre de un archivo/carpeta
 
 chmod 777 file/folder
 
-chmod 42- file/folder
+chmod 420 file/folder
 
 Cada valor es independiente
