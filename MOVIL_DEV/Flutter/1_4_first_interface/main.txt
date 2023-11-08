@@ -1,0 +1,45 @@
+import 'package:flutter/material.dart';
+
+const Color darkBlue = Color.fromARGB(255, 18, 32, 47);
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      theme: ThemeData.dark().copyWith(
+        //Esto es el color de fondo de la pantalla
+        //Con Color. elegimos el formato
+        //Con Colors. elegimos el color
+        scaffoldBackgroundColor: Colors.cyan,
+      ),
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: Center(
+          child: MyWidget(),
+        ),
+      ),
+    );
+  }
+}
+
+class MyWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return const Text(
+      //El objeto Text recibe un String y estilos
+      'Hello, World!',
+      //En este caso, toma el estilo del scaffold por defecto:
+      //*style: Theme.of(context).textTheme.headlineMedium,
+      //Podemos darle otros estilos con:
+      style: TextStyle(
+        color: Colors.black,
+        fontSize: 80,
+        backgroundColor: Colors.white
+      ),
+    );
+  }
+}
