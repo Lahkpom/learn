@@ -1,4 +1,0 @@
-enum eCourseTerm{
-  ANUAL,
-  CUATRIMESTRAL
-}

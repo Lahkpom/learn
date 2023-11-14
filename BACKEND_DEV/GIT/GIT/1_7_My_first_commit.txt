@@ -1,0 +1,1 @@
+git status sirve para ver qué archivos tenemos pendientes para subir al repositorio
