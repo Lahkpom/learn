@@ -77,8 +77,21 @@ void main(){
   
   clothingDesign.setListOfCourses = allCourses;
 
-  //clothingDesign.showCourses();
+  List<Course> l1 = [icse, ipc, sem, icp1, icp2, td, m];
+  me1.setListFinalForCourser = l1;
+  ip.setListFinalForCourser = l1;
+  fgdm.setListFinalForCourser = l1;
+  tpin1.setListFinalForCourser = l1;
+  hdit1.setListFinalForCourser = l1;
+  adit1.setListFinalForCourser = l1;
 
-  clothingDesign.forLevel(eCourseLevel.SEGUNDO);
+  List<Course> l2 = [tpin1];
+  tpin2.setListFinalForCourser = l1;
+  tpin2.setListCoursesForCourser = l2;
+  tpin2.setListFinalForFinal = l2;
+
+  clothingDesign.showCourses();
+
+  //clothingDesign.forLevel(eCourseLevel.PRIMERO);
 
 }

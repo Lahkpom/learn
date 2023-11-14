@@ -9,10 +9,15 @@ mixin mToListCourses{
     });
   }
 
-  void toListCoursesForName(List<Course> list){
-    list.forEach((element) {
-      print(element.getName);
-    });
+  String toListCoursesForName(List<Course> list){
+    if(list.isNotEmpty){
+      list.forEach((element) {
+        print(' ---- ${element.getName}');
+      });
+    }else{
+      print('SIN REQUISITOS');
+    }
+    return '';
   }
   
   void toListCoursesForLevel(List<Course> list, eCourseLevel level){
